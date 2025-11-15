@@ -1,1 +1,1 @@
-# Smart-image-classifier
+# Smart-waste-image-classifier
