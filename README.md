@@ -58,6 +58,12 @@ resnet18-classifier/
 git clone https://github.com/<Roy16Keane>/Smart-waste-image-classifier.git
 cd resnet18-classifier
 
+### 2 Clone the repository
+```bash
+git clone https://github.com/<Roy16Keane>/Smart-waste-image-classifier.git
+cd resnet18-classifier
+
+
 ### 2 Install dependencies
 ```bash
 pip install -r requirements.txt
