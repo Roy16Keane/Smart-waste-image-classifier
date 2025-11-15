@@ -1,12 +1,12 @@
-# Smart-waste-image-classifier
-# 🧠 Waste Image Classifier using Transfer Learning (ResNet18 + Streamlit)
+
+# Smart Waste Image Classifier using Transfer Learning (ResNet18 + Streamlit)
 
 A deep learning web app that classifies uploaded waste images into **Organic (O)** or **Recyclable (R)** categories, powered by **PyTorch** and **Streamlit**.  
 This project demonstrates **transfer learning**, **Grad-CAM explainability**, and full deployment through **Render** for public access.
 
 ---
 
-## 🚀 Demo
+##  Demo
 🔗 **Live App on Render:** [https://.onrender.com](#)  
 🖼️ Example prediction interface:
 
@@ -36,14 +36,14 @@ resnet18-classifier/
 
 ---
 
-## 🧩 Model Overview
+##  Model Overview
 
-### 🔹 Baseline: Custom SimpleCNN
+###  Baseline: Custom SimpleCNN
 - Trained from scratch
-- Accuracy: ~89%
+- Accuracy: **89% on training set**
 - Purpose: Educational baseline
 
-### 🔹 Final Model: Fine-Tuned ResNet18
+### Final Model/Deployed model: Fine-Tuned ResNet18
 - Pretrained on ImageNet
 - Fine-tuned last convolution block (`layer4`)
 - Accuracy: **95% on test set**
@@ -57,8 +57,12 @@ resnet18-classifier/
 ```bash
 git clone https://github.com/<Roy16Keane>/Smart-waste-image-classifier.git
 cd resnet18-classifier
+
 ### 2 Install dependencies
+```bash
 pip install -r requirements.txt
+
 ### 3 Run locally
+```bash
 streamlit run app.py
 
