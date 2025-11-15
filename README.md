@@ -40,7 +40,7 @@ resnet18-classifier/
 
 ###  Baseline: Custom SimpleCNN
 - Trained from scratch
-- Accuracy: **89% on training set**
+- Accuracy: **89% on testing set**
 - Purpose: Educational baseline
 
 ### Final Model/Deployed model: Fine-Tuned ResNet18
@@ -58,15 +58,12 @@ resnet18-classifier/
 git clone https://github.com/<Roy16Keane>/Smart-waste-image-classifier.git
 cd resnet18-classifier
 
-### 2 Clone the repository
-```bash
-git clone https://github.com/<Roy16Keane>/Smart-waste-image-classifier.git
-cd resnet18-classifier
 
 
 ### 2 Install dependencies
 ```bash
 pip install -r requirements.txt
+
 
 ### 3 Run locally
 ```bash
