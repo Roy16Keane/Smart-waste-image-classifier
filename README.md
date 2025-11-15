@@ -70,7 +70,22 @@ pip install -r requirements.txt
 
 ### 3 Run locally
 streamlit run app.py
+## Deployment on Render
+### 1 Push your project to GitHub
+Ensure your repo contains:
+- app.py
+- requirements.txt
+- models/resnet18_finetuned.pth
+### 2 Go to https://render.com
+ → New Web Service
+ ### 3 Set these commands
+ Build command:
+ pip install -r requirements.txt
 
+Start command:
+streamlit run app.py
+
+ 
 
 
 ## Upload → Predict → Explain
@@ -101,13 +116,13 @@ All dependencies explicitly defined
 ## Future Enhancement
 Add more classes (plastic, metal, glass, paper)
 
-Mobile deployment via ONNX / TFLite
+Convert model to ONNX for mobile 
 
-Batch inference API using FastAPI
+Add multi-class Grad-CAM 
 
-Dataset expansion & automated retraining
+Deploy FastAPI backend + Streamlit frontend
 
-Docker container for edge deployment
+Build auto-retraining MLOps pipeline
 
 
 
