@@ -14,7 +14,7 @@ The model predicts whether an uploaded image belongs to:
 ---
 
 ##  Demo
-🔗 **Live App on Render:** [https://.onrender.com](#)  
+🔗 **Live App on Render:** [https://smart-waste-image-classifier.onrender.com/](#)  
 🖼️ Example prediction interface:
 
 <p align="center">
