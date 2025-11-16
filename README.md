@@ -25,23 +25,6 @@ The model predicts whether an uploaded image belongs to:
 
 ##  Project Structure
 
-resnet18-classifier/
-│
-
-├── app.py # Streamlit app entry point
-├── requirements.txt # Dependencies for Render deployment
-├── README.md # Project documentation
-│
-├── models/
-│ └── resnet18_finetuned.pth # Fine-tuned model weights
-│
-├── utils/
-│ └── gradcam_utils.py # Grad-CAM visualization helper functions
-│
-└── assets/
-├── demo_gradcam.png # Example Grad-CAM output
-└── sample_O.jpg # Example image (Organic)
-
 
 ---
 
